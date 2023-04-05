@@ -10,7 +10,7 @@ function App() {
   }, []);
   return (
     <div className="App">
-      <h2 className="hello world">{data}</h2>
+      <h2>{data}</h2>
     </div>
   );
 }
